@@ -1,0 +1,10 @@
+class HelloTest{
+
+	String name;
+
+}
+   HelloTest(String name){
+
+return name;
+
+}
