@@ -1,10 +1,19 @@
-class HelloTest{
+
+public class HelloTest {
 
 	String name;
 
-}
-   HelloTest(String name){
+	public HelloTest(String name) {
+		super();
+		this.name = name;
+	}
 
-return name;
+	@Override
+	public String toString() {
+		return "HelloTest [name=" + name + "]";
+	}
 
+	
+	
 }
+
